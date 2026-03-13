@@ -80,7 +80,7 @@ The following security mechanisms were implemented:
 - SSH Remote Management
 
 ## Project Files
-
+```
 packet-tracer/
 ├── configs/
 │   ├── router-config.txt
@@ -93,8 +93,11 @@ packet-tracer/
 └── vlan-office-network/
     ├── office-vlan-network.pkt
     └── topology.png
+```
 
 ## Author
+## Author
 
-Allan Collado
-Networking & Software Development Student
+**Allan Collado**  
+Networking & Software Development Student  
+GitHub: https://github.com/allan31nic
