@@ -1,6 +1,6 @@
 Building configuration...
 
-Current configuration : 2673 bytes
+Current configuration : 2707 bytes
 !
 version 15.0
 no service timestamps log datetime msec
@@ -131,6 +131,8 @@ interface Vlan1
 interface Vlan20
  ip address 192.168.20.4 255.255.255.248
 !
+ip default-gateway 192.168.20.1
+!
 !
 !
 !
@@ -151,3 +153,4 @@ line vty 5 15
 !
 !
 end
+

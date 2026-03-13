@@ -1,6 +1,6 @@
 Building configuration...
 
-Current configuration : 2654 bytes
+Current configuration : 2688 bytes
 !
 version 15.0
 no service timestamps log datetime msec
@@ -129,6 +129,8 @@ interface Vlan1
 !
 interface Vlan30
  ip address 192.168.30.4 255.255.255.248
+!
+ip default-gateway 192.168.30.1
 !
 !
 !

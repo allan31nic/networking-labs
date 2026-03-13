@@ -1,6 +1,6 @@
 Building configuration...
 
-Current configuration : 2877 bytes
+Current configuration : 2961 bytes
 !
 version 15.0
 no service timestamps log datetime msec
@@ -148,7 +148,11 @@ interface GigabitEthernet0/2
 !
 interface Vlan1
  no ip address
- shutdown
+!
+interface Vlan30
+ ip address 192.168.30.5 255.255.255.248
+!
+ip default-gateway 192.168.30.1
 !
 !
 !

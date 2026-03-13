@@ -94,6 +94,21 @@ packet-tracer/
     ├── office-vlan-network.pkt
     └── topology.png
 ```
+## Lab Access Credentials
+
+The following credentials are used for accessing the devices in the lab.
+
+| Access      | Username |      Password      |
+|-------------|----------|--------------------|
+|  SSH	      |  admin.  |  StrongPassword123 |
+| Console     |    -     |     Cisco.         |
+| Enable Mode |    -     |     Class.         |
+
+Example SSH login:
+
+ssh -l admin 192.168.10.4
+
+These credentials are used only for demonstration purposes.
 
 ## Author
 
