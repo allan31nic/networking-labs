@@ -12,17 +12,14 @@ The network is divided into three departments:
 | Department |   VLAN  |      Subnet     |
 |------------|---------|-----------------| 
 |     HR     | VLAN 10 | 192.168.10.0/29 |
--------------|---------|-----------------|
-|    IT      | VLAN 20 | 192.168.20.0/29 |
--------------|---------|-----------------|
+|     IT     | VLAN 20 | 192.168.20.0/29 |
 | Accounting | VLAN 30 | 192.168.30.0/29 |
-|------------|---------|-----------------|
 
 ### Security VLAN
 |   VLAN  |          Purpose           |
 |---------|----------------------------|
 |VLAN 999 | Unused ports / Native VLAN |
-|---------|----------------------------|
+
 
 All unused ports are assigned to VLAN 999 and administratively shut down.
 
@@ -32,11 +29,9 @@ Inter-VLAN routing is implemented using **Router-on-a-Stick**.
 | Interface |   VLAN  |   Gateway    |
 |-----------|---------|--------------|
 | G0/0/1.10 | VLAN 10 | 192.168.10.1 |
-|------------------------------------|
 | G0/0/1.20 | VLAN 20 | 192.168.20.1 |
-|-----------|---------|--------------|
 | G0/0/1.30 | VLAN 30 | 192.168.30.1 |
-|-----------|---------|--------------|
+
 
 ## DHCP Configuration
 The router provides DHCP services for each VLAN.
@@ -57,11 +52,9 @@ Example IPv6 prefixes:
 |    VLAN    |    IPv6 Prefix   |
 |------------|------------------|
 |     HR     | 2001:db8:10::/64 |
-|------------|------------------|
 |     IT     | 2001:db8:20::/64 |
-|------------|------------------|
 | Accounting | 2001:db8:30::/64 |
-|------------|------------------|
+
 
 ## Network Security
 
