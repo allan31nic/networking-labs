@@ -96,7 +96,6 @@ packet-tracer/
 ```
 
 ## Author
-## Author
 
 **Allan Collado**  
 Networking & Software Development Student  
