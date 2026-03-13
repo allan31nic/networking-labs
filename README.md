@@ -4,7 +4,7 @@ This project demonstrates the design and implementation of segmented office netw
 The network separates deparments into different VLANs and subnets while implementing basic netwok security and dynamic IP assignment.
 
 ## Network Topology
-![Network Topology](topology.pdf)
+![Network Topology](packet-tracer/vlan-office-network/topology.png)
 
 ## Network Design
 The network is divided into three departments:
@@ -80,7 +80,19 @@ The following security mechanisms were implemented:
 - SSH Remote Management
 
 ## Project Files
+
 packet-tracer/
+├── configs/
+│   ├── router-config.txt
+│   ├── core-switch-config.txt
+│   ├── hr-switch-config.txt
+│   ├── it-switch-config.txt
+│   ├── accounting-switch-config.txt
+│   └── topology.pdf
+│
+└── vlan-office-network/
+    ├── office-vlan-network.pkt
+    └── topology.png
 
 ## Author
 
