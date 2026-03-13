@@ -100,9 +100,9 @@ The following credentials are used for accessing the devices in the lab.
 
 | Access      | Username |      Password      |
 |-------------|----------|--------------------|
-|  SSH	      |  admin.  |  StrongPassword123 |
-| Console     |    -     |     Cisco.         |
-| Enable Mode |    -     |     Class.         |
+|  SSH	      |  admin  |  StrongPassword123 |
+| Console     |    -     |     Cisco          |
+| Enable Mode |    -     |     Class          |
 
 Example SSH login:
 
